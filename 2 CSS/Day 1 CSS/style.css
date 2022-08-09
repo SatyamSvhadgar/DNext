@@ -1,0 +1,43 @@
+/* This is a Element Selector*/
+/* h1 {
+  color: red;
+} */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  background-color: cadetblue;
+} */
+h1 {
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: red;
+  font-style: italic;
+}
+/* .site-name {
+  font-style: normal;
+} */
+/* This is a Element with Class Sector*/
+p.author-name {
+  color:brown;
+  font-size: 15px;
+}
+/*This is a class Selector*/
+.author-name {
+  color: crimson;
+}
+
+#my-Footer {
+  background-color: cornflowerblue;
+  color: white;
+}
+.rgb-color {
+  color: red;
+  color: rgb(184, 108, 108);
+  color: #ffaf00;
+  color: hsl(240, 100%, 50%)
+  
+}
+

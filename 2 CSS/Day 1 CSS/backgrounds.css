@@ -1,0 +1,12 @@
+body {
+  /* background-color: bisque;
+  background-image: url("img/laura-jones.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-attachment: fixed; */
+  background: bisque url("img/laura-jones.jpg") no-repeat top right fixed ;
+}
+.div-1 {
+  width: 100%;
+  height: 400px;
+}
