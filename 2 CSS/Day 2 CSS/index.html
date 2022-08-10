@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Border</title>
+    <style>
+      .first-border {
+        /* border-style: dotted; */
+        border-top-style: dashed;
+        border-right-style: double;
+        border-bottom-style: dotted;
+        border-left-style: groove;
+      }
+      .border-width {
+        /* border-style: dotted; */
+        border-top-style: dashed;
+        border-right-style: double;
+        border-bottom-style: dotted;
+        border-left-style: groove;
+        /* border-width: 5px; */
+        border-top-width: 4px;
+        border-right-width: 10px;
+        border-bottom-width: 5px;
+        border-left-width: 2px;
+        /* border-color: blueviolet;  */
+        /*Shorthand property for all side border color  */
+        border-top-color: blue;
+        border-right-color: coral;
+        border-bottom-color: tomato;
+        border-left-color: cornflowerblue;
+      }
+      .border-shorthand {
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="first-border">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, quasi.
+    </p>
+    <p class="border-width">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, facere!
+    </p>
+    <p class="border-shorthand">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas,
+      voluptatum?
+    </p>
+  </body>
+</html>
