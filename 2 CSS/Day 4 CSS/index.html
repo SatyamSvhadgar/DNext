@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Links & Display</title>
+  <style>
+    /* Unvisited Link */
+    a:link {
+      color: red;
+    }
+    /*Visited Link*/
+    a:visited {
+      color: purple;
+    }
+    /*Hover Link*/
+    a:hover {
+      color: chocolate;
+    }
+    /*When Click*/
+    a:active {
+      color: rgb(6, 6, 6);
+    }
+    .d-none {
+      /* display: none; */
+      visibility: hidden;
+    }
+    .overflow-text ~ div {
+      /* width: 500px;
+      height: 100px;
+      border: 2px solid red;
+      overflow:auto;
+      overflow-x:auto;
+      overflow-y: auto; */
+      font-size: 40px;
+    }
+    /*Descendant Selector*/
+    .parent p{
+      color: red;
+    }
+    /*Child Selector*/
+    .parent > p {
+      color: red;
+    }
+    /*Adjacent Sibling Selector*/
+    .parent + p {
+      border: 2px solid black;
+    }
+    /*General Sibling Selector*/
+    .parent ~ p {
+      color: rgb(249, 187, 0);
+    }
+  </style>
+</head>
+<body>
+  <a href="#">This is a Link</a>
+  <p class="d-none">Lorem ipsum dolor sit amet.</p>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem architecto voluptate ducimus, nulla quisquam saepe velit modi animi beatae? Inventore.</p>
+  <div class="overflow-text">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur omnis ut voluptas a cum autem, provident quae excepturi possimus suscipit delectus aliquid molestias odio alias rerum sint odit ipsum sapiente porro, veritatis vero! Exercitationem impedit eius perspiciatis suscipit quas. Odio inventore eligendi asperiores voluptates nesciunt itaque id commodi, laborum eius qui veritatis voluptate magnam aperiam. Nemo esse placeat at, vel aut sed minus delectus maiores cupiditate ducimus ab molestias quod!</p>
+  </div>
+
+
+
+<div class="parent">
+  <p>Lorem ipsum dolor sit.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <span><P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae alias possimus magnam!</P></span>
+  <!-- <h1>heading</h1> -->
+</div>
+
+<!-- <div>
+  THIS IS A DIV
+</div> -->
+<p>Lorem, ipsum.</p>
+<p>Lorem, ipsum dolor.</p>
+<p>Lorem, ipsum.</p>
+<p>Lorem, ipsum dolor.</p>
+<p>Lorem, ipsum.</p>
+<p>Lorem, ipsum dolor.</p>
+</body>
+</html>
